@@ -1,0 +1,24 @@
+.cadastro-crianca-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #ff69b4;
+    font-family: 'Comic Sans MS', cursive;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-family: 'Comic Sans MS', cursive;
+    color: #333;
+}
+
+button {
+    width: 100%;
+}
