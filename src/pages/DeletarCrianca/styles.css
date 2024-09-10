@@ -1,0 +1,95 @@
+.deletar-crianca-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.deletar-crianca-container h2 {
+    font-family: 'Comic Sans MS', cursive;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.search-form input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #ff1493;
+}
+
+.crianca-detalhada {
+    background-color: #f4faff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    margin-top: 30px;
+}
+
+.crianca-detalhada h3 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.crianca-detalhada p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.delete-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.delete-button:hover {
+    background-color: #ff1a1a;
+}
+
+.erro {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sucesso {
+    color: green;
+    font-size: 16px;
+    margin-top: 20px;
+}

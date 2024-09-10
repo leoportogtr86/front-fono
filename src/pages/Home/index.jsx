@@ -1,43 +1,42 @@
 import './styles.css';
+import {Link} from "react-router-dom";
 
-function Home() {
+function HomeFono() {
     return (
-        <div className="home-container">
-            <header className="hero-section">
-                <h1>Bem-vindo à Clínica Fonoaudiológica Infantil</h1>
-                <p>Oferecemos atendimento especializado para o desenvolvimento da fala e linguagem das crianças.</p>
-                <a href="/contato" className="hero-button">Entre em Contato</a>
+        <div className="home-fono-container">
+            <header className="hero-fono-section">
+                <h1>Bem-vindo ao Sistema de Gerenciamento de Pacientes</h1>
             </header>
-            <section className="services-section">
-                <h2>Nossos Serviços</h2>
-                <div className="services">
-                    <div className="service-card">
-                        <h3>Avaliações Fonoaudiológicas</h3>
-                        <p>Avaliações completas para diagnóstico e tratamento de dificuldades na fala e
-                            linguagem.</p>
+            <section className="features-section">
+                <h2 className={"title"}>Principais Funcionalidades</h2>
+                <div className="features">
+                    <div className="feature-card">
+                        <h3>Cadastro de Pacientes</h3>
+                        <p>Adicione novos pacientes ao sistema, incluindo todas as informações necessárias para o acompanhamento fonoaudiológico.</p>
+                        <Link to={"/criancas"} className="feature-button">Gerenciar Paciente</Link>
                     </div>
-                    <div className="service-card">
-                        <h3>Intervenções Terapêuticas</h3>
-                        <p>Intervenções personalizadas para ajudar no desenvolvimento da comunicação e linguagem das
-                            crianças.</p>
+                    <div className="feature-card">
+                        <h3>Gerenciamento de Avaliações</h3>
+                        <p>Registre e acompanhe as avaliações realizadas, garantindo um histórico detalhado do progresso de cada paciente.</p>
+                        <Link to={"/avaliacoes"} className="feature-button">Gerenciar Avaliações</Link>
                     </div>
-                    <div className="service-card">
-                        <h3>Acompanhamento Regular</h3>
-                        <p>Acompanhamento contínuo para garantir o progresso e o sucesso do tratamento.</p>
+                    <div className="feature-card">
+                        <h3>Intervenções Personalizadas</h3>
+                        <p>Planeje e registre intervenções terapêuticas, assegurando que cada paciente receba o tratamento adequado.</p>
+                        <Link to={"/intervencoes"} className="feature-button">Gerenciar Intervenções</Link>
                     </div>
                 </div>
             </section>
-            <section className="about-section">
-                <h2>Sobre Nós</h2>
+            <section className="about-fono-section">
+                <h2>Como Funciona</h2>
                 <p>
-                    A Clínica Fonoaudiológica Infantil é especializada no cuidado da comunicação e linguagem das
-                    crianças.
-                    Nossa equipe de profissionais qualificados está comprometida em proporcionar um atendimento de
-                    excelência.
+                    Este sistema foi desenvolvido para auxiliar fonoaudiólogos no gerenciamento completo de seus pacientes.
+                    Com ele, você pode cadastrar novos pacientes, registrar avaliações detalhadas, e planejar intervenções terapêuticas,
+                    tudo em um só lugar, de forma fácil e acessível.
                 </p>
             </section>
         </div>
     );
 }
 
-export default Home;
+export default HomeFono;

@@ -1,0 +1,71 @@
+.hub-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hub-container h2 {
+    font-family: 'Comic Sans MS', cursive;
+    color: #ff69b4;
+    margin-bottom: 30px;
+}
+
+.hub-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hub-item {
+    width: 180px;
+    height: 180px;
+    background-color: #f4faff;
+    border: 2px solid #ff69b4;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.hub-item:hover {
+    transform: translateY(-10px);
+    background-color: #ffe6f0;
+}
+
+.hub-item .icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hub-item .buscar {
+    background-image: url('/src/assets/icons/find-glass-interface-svgrepo-com.svg');
+}
+
+.hub-item .cadastrar {
+    background-image: url('/src/assets/icons/save-svgrepo-com.svg');
+}
+
+.hub-item .atualizar {
+    background-image: url('/src/assets/icons/update-rotation-svgrepo-com.svg');
+}
+
+.hub-item .deletar {
+    background-image: url('/src/assets/icons/delete-svgrepo-com.svg');
+}
+
+.hub-item span {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}

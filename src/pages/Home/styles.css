@@ -1,82 +1,94 @@
-.home-container {
+.home-fono-container {
     font-family: 'Arial', sans-serif;
 }
 
-.hero-section {
+.hero-fono-section {
     background-color: #f4faff;
-    padding: 60px 20px;
+    padding: 20px 20px;
     text-align: center;
     border-radius: 0 0 20px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.hero-section h1 {
+.hero-fono-section h1 {
     font-family: 'Comic Sans MS', cursive;
     color: #ff69b4;
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.hero-section p {
+.hero-fono-section p {
     font-size: 18px;
     color: #333;
     margin-bottom: 30px;
 }
 
-.hero-button {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #ff69b4;
-    color: white;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 18px;
-    transition: background-color 0.3s;
-}
-
-.hero-button:hover {
-    background-color: #ff1493;
-}
-
-.services-section {
+.features-section {
     padding: 40px 20px;
     text-align: center;
 }
 
-.services-section h2 {
+.features-section h2 {
     font-family: 'Comic Sans MS', cursive;
     color: #ff69b4;
     margin-bottom: 40px;
 }
 
-.services {
+.features {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.service-card {
+.feature-card {
     background-color: #fff;
     padding: 20px;
     margin: 10px;
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
 
-.service-card h3 {
+.feature-card h3 {
     font-size: 20px;
     color: #ff69b4;
     margin-bottom: 10px;
 }
 
-.service-card p {
+.feature-card p {
     font-size: 16px;
     color: #333;
+    margin-bottom: 20px;
 }
 
-.about-section {
+.feature-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.feature-button:hover {
+    background-color: #ff1493;
+}
+
+.title {
+    font-family: 'Comic Sans MS', cursive;
+    color: #ff69b4;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-fono-section {
     padding: 40px 20px;
     background-color: #f4faff;
     border-radius: 20px;
@@ -84,13 +96,13 @@
     margin-top: 40px;
 }
 
-.about-section h2 {
+.about-fono-section h2 {
     font-family: 'Comic Sans MS', cursive;
     color: #ff69b4;
     margin-bottom: 20px;
 }
 
-.about-section p {
+.about-fono-section p {
     font-size: 18px;
     color: #333;
     max-width: 600px;
