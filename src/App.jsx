@@ -23,6 +23,7 @@ import DeletarCrianca from "./pages/DeletarCrianca/index.jsx";
 import BuscarIntervencao from "./pages/BuscarIntervencao/index.jsx";
 import AtualizarIntervencao from "./pages/AtualizarIntervencao/index.jsx";
 import DeletarIntervencao from "./pages/DeletarIntervencao/index.jsx";
+import CadastroUsuario from "./pages/CadastroUsuario/index.jsx";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
             <Routes>
                 <Route path={"/"} element={<Home/>}/>
                 <Route path={"/avaliacoes"} element={<HubAvaliacoes/>}/>
+                <Route path={"/cadastro"} element={<CadastroUsuario/>}/>
                 <Route path={"/buscar-avaliacoes"} element={<BuscarAvaliacoes/>}/>
                 <Route path={"/atualizar-avaliacao"} element={<AtualizarAvaliacao/>}/>
                 <Route path={"/deletar-avaliacao"} element={<DeletarAvaliacao/>}/>

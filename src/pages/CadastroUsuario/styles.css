@@ -1,0 +1,69 @@
+.cadastro-usuario-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cadastro-usuario-container h2 {
+    font-family: 'Comic Sans MS', cursive;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.cadastro-form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+.erro {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sucesso {
+    color: green;
+    font-size: 16px;
+    margin-top: 20px;
+}
