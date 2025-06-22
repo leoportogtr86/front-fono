@@ -95,3 +95,15 @@ src/
 3. Commit suas alterações: `git commit -m 'Adiciona nova funcionalidade'`
 4. Push para sua branch: `git push origin minha-feature`
 5. Abra um Pull Request.
+
+## Aplicativo Mobile (React Native + Expo)
+
+Dentro da pasta `expo-app` encontra-se uma versão simplificada do projeto pronta para ser executada com o Expo. Para testar o aplicativo mobile:
+
+```bash
+cd expo-app
+npm install
+npm start
+```
+
+O Expo abrirá um servidor de desenvolvimento onde você pode rodar o app em um emulador ou dispositivo físico.
