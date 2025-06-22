@@ -108,13 +108,3 @@ expo-app/               # Aplicativo mobile em React Native (Expo)
 4. Push para sua branch: `git push origin minha-feature`
 5. Abra um Pull Request.
 
-## Aplicativo Mobile (React Native + Expo)
-
-Dentro da pasta `expo-app` encontra-se o código do aplicativo mobile. Para iniciar a aplicação:
-
-```bash
-cd expo-app
-npm install
-npx expo start
-```
-Siga as instruções exibidas no terminal para executar o app em um emulador ou dispositivo físico.
