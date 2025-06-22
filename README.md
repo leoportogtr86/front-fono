@@ -1,14 +1,13 @@
-# Clínica de Terapia Fonoaudiológica Infantil - Frontend
+# Clínica de Terapia Fonoaudiológica Infantil
 
-Este é o repositório do frontend da aplicação da clínica de terapia fonoaudiológica infantil. O sistema permite a gestão
-de crianças, fonoaudiólogos, avaliações e intervenções terapêuticas, proporcionando uma interface amigável para
-gerenciar esses dados.
+Este repositório reúne a versão web em React.js e o aplicativo mobile desenvolvido com **React Native** utilizando **Expo**. O sistema permite gerenciar crianças, fonoaudiólogos, avaliações e intervenções terapêuticas de maneira prática.
 
 ## Tecnologias Utilizadas
 
-- **React.js** - Biblioteca JavaScript para construir interfaces de usuário.
-- **CSS Puro** - Estilização da interface.
-- **React Router DOM** - Para gerenciamento de rotas no frontend.
+- **React.js** - Utilizado na versão web do projeto.
+- **React Native** e **Expo** - Base do aplicativo mobile localizado em `expo-app`.
+- **CSS Puro** - Estilização da interface web.
+- **React Router DOM** - Para gerenciamento de rotas na versão web.
 - **Axios (opcional)** - Para realizar chamadas HTTP (pode ser substituído por `fetch`).
 
 ## Funcionalidades
@@ -24,9 +23,9 @@ gerenciar esses dados.
 - Node.js (versão 14 ou superior)
 - NPM (gerenciador de pacotes do Node.js)
 
-## Como Executar o Projeto
+## Como Executar o Projeto Web
 
-Siga os passos abaixo para rodar o frontend do projeto localmente:
+Siga os passos abaixo para rodar a versão web do projeto:
 
 ### 1. Clonar o Repositório
 
@@ -59,6 +58,18 @@ npm run build
 
 Os arquivos otimizados ficarão na pasta `build/`.
 
+## Como Executar o App Mobile
+
+Para rodar o aplicativo mobile desenvolvido com React Native e Expo:
+
+```bash
+cd expo-app
+npm install
+npx expo start
+```
+
+Esse comando abrirá o servidor do Expo, permitindo a execução em emuladores ou dispositivos físicos.
+
 ## Estrutura de Pastas
 
 Abaixo está a estrutura principal de pastas do projeto:
@@ -79,6 +90,7 @@ src/
 ├── index.js            # Ponto de entrada da aplicação
 ├── assets/             # Arquivos estáticos (imagens, ícones)
 └── styles/             # Arquivos de estilos (CSS)
+expo-app/               # Aplicativo mobile em React Native (Expo)
 ```
 
 ## Principais Páginas
@@ -95,3 +107,14 @@ src/
 3. Commit suas alterações: `git commit -m 'Adiciona nova funcionalidade'`
 4. Push para sua branch: `git push origin minha-feature`
 5. Abra um Pull Request.
+
+## Aplicativo Mobile (React Native + Expo)
+
+Dentro da pasta `expo-app` encontra-se o código do aplicativo mobile. Para iniciar a aplicação:
+
+```bash
+cd expo-app
+npm install
+npx expo start
+```
+Siga as instruções exibidas no terminal para executar o app em um emulador ou dispositivo físico.
