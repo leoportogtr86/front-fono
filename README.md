@@ -23,9 +23,22 @@ Este repositório reúne a versão web em React.js e o aplicativo mobile desenvo
 - Node.js (versão 14 ou superior)
 - NPM (gerenciador de pacotes do Node.js)
 
+## Scripts Disponíveis
+
+Estes são os comandos mais comuns durante o desenvolvimento:
+
+| Comando       | Descrição                         |
+|---------------|-----------------------------------|
+| `npm run dev` | Inicia o servidor de desenvolvimento com Vite |
+| `npm run build` | Gera os arquivos de produção      |
+| `npm run preview` | Visualiza localmente o build gerado |
+| `npm run lint` | Executa a análise estática de código |
+
 ## Como Executar o Projeto Web
 
-Siga os passos abaixo para rodar a versão web do projeto:
+Siga os passos abaixo para rodar a versão web do projeto. Antes de iniciar,
+altere o arquivo `src/service/fonoaudiologoService.js` substituindo `API_URL`
+pelo endereço do seu backend:
 
 ### 1. Clonar o Repositório
 
@@ -43,7 +56,7 @@ npm install
 ### 3. Executar o Projeto
 
 ```bash
-npm start
+npm run dev
 ```
 
 O projeto será iniciado e estará disponível no endereço [http://localhost:3000](http://localhost:3000).
